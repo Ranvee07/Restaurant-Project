@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    background-image: url(pexels-pixabay-326281.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.name {
+    color: white;
+    line-height: 0.5px;
+    padding-left: 8px;
+    display: flex;
+}
+
+.option ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.option {
+    margin-left: auto;
+}
+
+.option a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 0 0 50px;
+}
+
+
+.best {
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.best h1{
+    margin: 0;
+}
+
+.lorem {
+    color: white;  
+   
+}
+
+.book button {
+    background-color: yellow;
+   border-radius: 10px;
+   padding: 6px;
+}
+
+
+.offer {
+    color: red;
+    font-weight: 700;
+    padding-left: 8px;
+    font-size: larger;
+    animation: blinkRotate 2s infinite;
+}
+
+@keyframes blinkRotate {
+    0%, 100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+    100% {
+        opacity: 0;
+        transform: rotateY(10deg);
+    }
+}
+
+.logo img{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   padding-top: 20px;
+   padding-right: 6px;
+
+}
+
+.option a:hover {
+    color: #ff0; 
+    text-decoration: underline; 
+}
+
+
